@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { MenuSuperior } from '../menu-superior/menu-superior';
+import { Slider } from '../slider/slider';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [MenuSuperior],
+  imports: [MenuSuperior, Slider],
   templateUrl: './home.html',
   styleUrls: ['./home.css']
 })
