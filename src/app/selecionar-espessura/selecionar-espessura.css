@@ -1,52 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Irish+Grover&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-.imagem {
-    background-color: red;
-}
-
-.info {
-    background-color: aquamarine;
-}
-
-.produto {
-    background-color: blueviolet;
+.lentes {
+    gap: 2%;
 }
 
 .titulo {
     font-family: "Public Sans", system-ui;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: bold;
     margin-top: 2%;
 }
 
-.grau {
-    display: flex;
-    align-items: center;
-    height: 50px;
-}
-
-.tipo {
+.infos {
     font-family: "Public Sans", system-ui;
-    font-size: 22px;
-    font-weight: bold;
-    color: #191C1F;
-}
-
-.info-tipo {
-    font-family: "Public Sans", system-ui;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 15px;
     color: #3E4A52;
 }
 
-.preco {
-    font-family: "Public Sans", system-ui;
-    font-size: 22px;
-}
-
-.selecao {
-    border: 1px solid #E4E7E9;
-    margin: 2px;
+.barra-horizontal {
+    width: 100%;
+    height: 1px;
+    background-color: #dfdfdf;
+    margin-bottom: 20px;
+    border-radius: 5px;
 }
 
 .barra-vertical {
