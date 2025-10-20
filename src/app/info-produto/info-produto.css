@@ -1,0 +1,24 @@
+.imagem-produto {
+    background-color: blue;
+    height: 10vh;   
+}
+
+.info-produto {
+    background-color: gray;
+}
+
+.img-thumbnail {
+  opacity: 0.7;
+  transition: 0.2s;
+}
+
+.img-thumbnail:hover,
+.img-thumbnail.active {
+  opacity: 1;
+  border: 2px solid #007bff;
+}
+
+.coracao {
+    display: flex;
+    justify-content: end;
+}
