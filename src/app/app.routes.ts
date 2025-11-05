@@ -4,11 +4,13 @@ import { ProdutoDetalhe } from './produto-detalhe/produto-detalhe';
 import { TipoLente } from './tipo-lente/tipo-lente';
 import { TipoEspessura } from './tipo-espessura/tipo-espessura';
 import { AnexarReceita } from './anexar-receita/anexar-receita';
+import { Login } from './login/login';
 
 export const routes: Routes = [
     { path: '', component: Home },
     { path: 'produto-detalhe', component: ProdutoDetalhe },
     { path: 'tipo-lente', component: TipoLente },
     { path: 'tipo-espessura', component: TipoEspessura },
-    { path: 'anexar-receita', component: AnexarReceita }
+    { path: 'anexar-receita', component: AnexarReceita },
+    { path: 'login', component: Login },
 ];
